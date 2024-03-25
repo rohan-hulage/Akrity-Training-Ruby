@@ -29,9 +29,20 @@ puts new_string.insert(1, ' h') # inserts substring at particular index
 
 puts new_string.inspect # it will returns exact string
 
+puts new_string.reverse # Reverse the String
+
+puts new_string.sub("World", "Siri") # replace the sub string
+
 puts new_string.ord
 
 puts new_string.lstrip!
 
 str = "Hey Git"
 puts str
+
+puts str.to_i.class # you can change Data type easily aslo you can call two methods same time
+
+# get input from user
+puts "Enter Your Name:"
+first_name = gets.chomp  # takes input from user and chopm only takes strings.
+puts "my first name is #{first_name}."
