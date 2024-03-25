@@ -13,3 +13,4 @@ elsif (num_2 > num_1)  # carefully read the syntax its "elsif" not elseif
 else
     puts "first number and second number are equal"     
 end
+
