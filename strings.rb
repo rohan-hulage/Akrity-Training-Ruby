@@ -46,3 +46,10 @@ puts str.to_i.class # you can change Data type easily aslo you can call two meth
 puts "Enter Your Name:"
 first_name = gets.chomp  # takes input from user and chopm only takes strings.
 puts "my first name is #{first_name}."
+
+# times method
+20.times {print "-"}
+
+puts
+# aslo you can acheive this by using
+puts "-" * 20
