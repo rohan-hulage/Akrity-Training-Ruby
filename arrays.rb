@@ -1,4 +1,4 @@
-# Arrays : Arrays ordered list of items
+# Arrays : Arrays means ordered list of items
 # indexing in array start from 0
 
 arr = [1, 2, 3, 4]
