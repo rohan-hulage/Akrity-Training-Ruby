@@ -10,7 +10,7 @@ dial_book = {
   "orlando" => "407",
   "lancaster" => "717"
 }
- 
+
 # Get city names from the hash
 def get_city_names(somehash)
   somehash.keys
